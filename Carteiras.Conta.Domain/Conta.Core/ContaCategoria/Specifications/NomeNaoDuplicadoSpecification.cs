@@ -1,8 +1,8 @@
 using System.Linq.Expressions;
 using Shared.Core.Domain.Specification;
-using Conta.Domain.Aggregates.ContaCategoria;
+using Carteiras.Conta.Domain.Aggregates.ContaCategoria;
 
-namespace Conta.Domain.Aggregates.ContaCategoria.Specifications;
+namespace Carteiras.Conta.Domain.Aggregates.ContaCategoria.Specifications;
 
 /// <summary>
 /// Specification para verificar se o nome não está duplicado.

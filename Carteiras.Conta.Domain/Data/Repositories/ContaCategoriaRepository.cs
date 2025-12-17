@@ -1,9 +1,9 @@
-using Conta.Domain.Aggregates.ContaCategoria;
-using Conta.Domain.Data.Context;
+using Carteiras.Conta.Domain.Aggregates.ContaCategoria;
+using Carteiras.Conta.Domain.Data.Context;
 using Shared.Core.Data.Repositories;
 using Shared.Core.Interfaces;
 
-namespace Conta.Domain.Data.Repositories;
+namespace Carteiras.Conta.Domain.Data.Repositories;
 
 /// <summary>
 /// Implementação do repositório para ContaCategoria.

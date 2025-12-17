@@ -3,7 +3,7 @@ using Conta.Data.Repositories;
 using Shared.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Conta.Api.Controllers;
+namespace Carteiras.Web.Controllers;
 
 public class ContaCategoriaController : Controller
 {

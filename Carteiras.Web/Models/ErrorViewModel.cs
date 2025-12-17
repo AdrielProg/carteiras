@@ -1,4 +1,4 @@
-namespace Conta.Api.Models;
+namespace Carteiras.Web.Models;
 
 public class ErrorViewModel
 {

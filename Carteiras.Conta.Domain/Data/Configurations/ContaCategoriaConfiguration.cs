@@ -1,8 +1,8 @@
-using Conta.Domain.Aggregates.ContaCategoria;
+using Carteiras.Conta.Domain.Aggregates.ContaCategoria;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Conta.Domain.Data.Configurations;
+namespace Carteiras.Conta.Domain.Data.Configurations;
 
 /// <summary>
 /// Configuração do Entity Framework para o agregado ContaCategoria.

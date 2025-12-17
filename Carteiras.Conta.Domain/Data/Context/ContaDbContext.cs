@@ -1,8 +1,8 @@
-using Conta.Domain.Aggregates.ContaCategoria;
-using Conta.Domain.Data.Configurations;
+using Carteiras.Conta.Domain.Aggregates.ContaCategoria;
+using Carteiras.Conta.Domain.Data.Configurations;
 using Microsoft.EntityFrameworkCore;
 
-namespace Conta.Domain.Data.Context;
+namespace Carteiras.Conta.Domain.Data.Context;
 
 /// <summary>
 /// DbContext para o domínio Conta.

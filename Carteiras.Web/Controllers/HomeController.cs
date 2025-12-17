@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Conta.Api.Models;
+using Carteiras.Web.Models;
 
-namespace Conta.Api.Controllers;
+namespace Carteiras.Web.Controllers;
 
 public class HomeController : Controller
 {

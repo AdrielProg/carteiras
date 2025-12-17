@@ -1,9 +1,9 @@
 using Shared.Core.Domain.Base;
 using Shared.Core.Interfaces;
 using Shared.Core.Domain.Specification;
-using Conta.Domain.Aggregates.ContaCategoria.Specifications;
+using Carteiras.Conta.Domain.Aggregates.ContaCategoria.Specifications;
 
-namespace Conta.Domain.Aggregates.ContaCategoria;
+namespace Carteiras.Conta.Domain.Aggregates.ContaCategoria;
 
 /// <summary>
 /// Agregado raiz ContaCategoria.

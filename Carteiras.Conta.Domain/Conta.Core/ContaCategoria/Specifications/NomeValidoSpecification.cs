@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
 using Shared.Core.Domain.Specification;
 
-namespace Conta.Domain.Aggregates.ContaCategoria.Specifications;
+namespace Carteiras.Conta.Domain.Aggregates.ContaCategoria.Specifications;
 
 /// <summary>
 /// Specification para validar se o nome da categoria é válido.
