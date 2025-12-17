@@ -1,4 +1,5 @@
 using System.Linq.Expressions;
+using Shared.Core.Interfaces;
 
 namespace Shared.Core.Domain.Specification;
 
@@ -7,7 +8,7 @@ namespace Shared.Core.Domain.Specification;
 /// Permite composição de regras de negócio usando operadores lógicos (AND, OR, NOT).
 /// </summary>
 /// <typeparam name="T">Tipo da entidade que será avaliada pela especificação.</typeparam>
-public abstract class Specification<T>
+public abstract class Specification<T> : ISpecification<T>
 {
     private static readonly Specification<T> All = new IdentitySpecification<T>();
 
