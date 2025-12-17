@@ -62,9 +62,19 @@ public abstract class Repository<T, TKey> : IRepository<T, TKey> where T : class
         return await _dbSet.FindAsync(new object[] { id! }, cancellationToken);
     }
 
+    public virtual async Task<IEnumerable<T>> ListarAsync(CancellationToken cancellationToken = default)
+    {
+        return await _dbSet.ToListAsync(cancellationToken);
+    }
+
     public virtual async Task<bool> ExisteAsync(TKey id, CancellationToken cancellationToken = default)
     {
         return await _dbSet.FindAsync(new object[] { id! }, cancellationToken) != null;
+    }
+
+    public virtual async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+    {
+        return await _context.SaveChangesAsync(cancellationToken);
     }
 }
 

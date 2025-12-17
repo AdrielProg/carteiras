@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta.Core", "Conta.Core\Conta.Core.csproj", "{23B88091-5DB1-4491-B5C0-D9BFA4E5B40E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta.Core", "Conta.Domain\Conta.Core\Conta.Core.csproj", "{23B88091-5DB1-4491-B5C0-D9BFA4E5B40E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta.Data", "Conta.Data\Conta.Data.csproj", "{D7E08F92-6B45-4CD7-9003-4011D24FD058}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta.Data", "Conta.Domain\Conta.Data\Conta.Data.csproj", "{D7E08F92-6B45-4CD7-9003-4011D24FD058}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{2913E41E-DAD9-4CEA-8911-BADF6CD37031}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Core", "Shared\Shared.Core\Shared.Core.csproj", "{74F5C99C-B425-4B00-A282-88994B0CB839}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Data", "Shared\Shared.Data\Shared.Data.csproj", "{E74C22DA-1CFB-4494-BEE5-1655803FD39F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta.Api", "Conta.Api\Conta.Api.csproj", "{7FBC7607-DBE9-4388-9CC8-86B4D10615BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{E74C22DA-1CFB-4494-BEE5-1655803FD39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E74C22DA-1CFB-4494-BEE5-1655803FD39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E74C22DA-1CFB-4494-BEE5-1655803FD39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FBC7607-DBE9-4388-9CC8-86B4D10615BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FBC7607-DBE9-4388-9CC8-86B4D10615BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FBC7607-DBE9-4388-9CC8-86B4D10615BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FBC7607-DBE9-4388-9CC8-86B4D10615BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{74F5C99C-B425-4B00-A282-88994B0CB839} = {2913E41E-DAD9-4CEA-8911-BADF6CD37031}
