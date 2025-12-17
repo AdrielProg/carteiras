@@ -1,3 +1,5 @@
+using System.Linq.Expressions;
+
 namespace Shared.Core.Interfaces;
 
 /// <summary>
@@ -35,8 +37,9 @@ public interface IRepository<T, TKey> where T : IAggregateRoot
     
     /// <summary>
     /// Busca agregados usando uma specification.
+    /// Se specification for null, retorna todos os registros.
     /// </summary>
-    Task<IEnumerable<T>> BuscarAsync(ISpecification<T> specification, CancellationToken cancellationToken = default);
+    Task<IEnumerable<T>> BuscarAsync(ISpecification<T>? specification = null, CancellationToken cancellationToken = default);
     
     /// <summary>
     /// Lista todos os agregados.
